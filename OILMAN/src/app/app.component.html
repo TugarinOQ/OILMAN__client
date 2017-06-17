@@ -22,7 +22,14 @@
   </div>
 </header>
 
-<router-outlet></router-outlet>
+<div class="container" *ngIf="isLogged" [ngStyle]="{marginTop: '50px'}">
+  <div class="row">
+    <leftmenu></leftmenu>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<router-outlet *ngIf="!isLogged"></router-outlet>
 
 <footer>
   <div class="container">

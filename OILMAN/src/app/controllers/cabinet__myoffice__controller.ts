@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: [ '../styles/cabinet__style.scss' ]
 })
 
-export class cabinet__controller {
+export class cabinet__myoffice__controller {
 
   constructor() { }
 }

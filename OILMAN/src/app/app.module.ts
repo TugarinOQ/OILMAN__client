@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { home__controller } from "./controllers/home__controller";
 import { auth__controller } from './controllers/auth__contoller';
 import { reg__controller } from './controllers/reg__controller';
-import { cabinet__controller } from "./controllers/cabinet__controller";
+import { cabinet__myoffice__controller } from "./controllers/cabinet__myoffice__controller";
 
 import { guest__pane__controller, user__pane__controller } from './controllers/view__child/user__pane__controller';
 import { slider__controller} from "./controllers/view__child/slider__controller";
@@ -26,7 +26,7 @@ import { leftmenu__controller } from "./controllers/view__child/leftmenu__contro
     guest__pane__controller,
     slider__controller,
     leftmenu__controller,
-    cabinet__controller
+    cabinet__myoffice__controller
   ],
   imports: [
     BrowserModule,
@@ -35,6 +35,6 @@ import { leftmenu__controller } from "./controllers/view__child/leftmenu__contro
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, ]
 })
 export class AppModule { }
