@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Business</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-61.000000, -166.000000)" fill-rule="nonzero" fill="#1F2120">
+            <g id="leftMenu" transform="translate(60.000000, 125.000000)">
+                <g id="Business" transform="translate(1.000000, 41.000000)">
+                    <path d="M11.5,0 L0.5,0 C0.2,0 0,0.2 0,0.5 L0,12 L12,12 L12,0.5 C12,0.2 11.8,0 11.5,0 Z M9.5,1 L9.5,4.5 L8.5,4.5 L8.5,1 L9.5,1 Z M8,1 L8,4.5 L7,4.5 L7,1 L8,1 Z M6.5,1 L6.5,4.5 L5.5,4.5 L5.5,1 L6.5,1 Z M5,1 L5,4.5 L4,4.5 L4,1 L5,1 Z M3.5,1 L3.5,4.5 L2.5,4.5 L2.5,1 L3.5,1 Z M1,1 L2,1 L2,4.5 L1,4.5 L1,1 Z M7.5,11 L7.5,9 L8,9 L8,8.5 L7.5,8.5 L7.5,6.5 L9.5,6.5 L9.5,11 L7.5,11 Z M11,11 L10,11 L10,6 L7,6 L7,11 L1,11 L1,5 L11,5 L11,11 Z M11,4.5 L10,4.5 L10,1 L11,1 L11,4.5 Z" id="Shape"></path>
+                    <path d="M6.5,6 L2,6 L2,10.5 L6.5,10.5 L6.5,6 Z M6,10 L2.5,10 L2.5,6.5 L6,6.5 L6,10 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

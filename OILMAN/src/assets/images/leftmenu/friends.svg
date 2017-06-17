@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Friends</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-62.000000, -323.000000)" fill-rule="nonzero" fill="#1F2120">
+            <g id="leftMenu" transform="translate(60.000000, 125.000000)">
+                <g id="Friends" transform="translate(2.000000, 198.000000)">
+                    <path d="M5.637,7.5705 C5.766,7.20675 6.75,5.9535 6.75,3.75 C6.75,2.50725 5.74275,1.5 4.5,1.5 C3.25725,1.5 2.25,2.50725 2.25,3.75 C2.25,5.9535 3.23475,7.20675 3.363,7.5705 C2.21475,7.6755 0,8.40825 0,9.75 C0,10.0665 0.252,10.5 0.75,10.5 L8.25,10.5 C8.748,10.5 9,10.0665 9,9.75 C9,8.40825 6.78525,7.6755 5.637,7.5705 Z M9.486,5.27925 C9.66675,4.73325 10.5,3.20475 10.5,2.25 C10.5,1.00725 9.492,0 8.25,0 C7.62,0 7.05075,0.2595 6.64275,0.6765 C7.6125,1.356 8.25,2.4795 8.25,3.75 C8.25,4.89075 8.02725,5.83425 7.76625,6.561 C8.3475,6.79125 8.9115,7.10325 9.37575,7.5 L11.25,7.5 C11.6835,7.5 12,7.16025 12,6.75 C12,5.8065 10.1835,5.40825 9.486,5.27925 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

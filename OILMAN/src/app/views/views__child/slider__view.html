@@ -1,0 +1,12 @@
+<div class="arrow left"></div>
+<div class="arrow right"></div>
+<div class="OILArea">
+  <div class="OILPlane">
+    <div class="OILObject" *ngFor="let item of oilobject">
+      <div class="{{item.imgClass}}"></div>
+      <div class="title">{{item.title}}</div>
+      <div class="price">{{item.price}}P</div>
+      <a class="link buttonYellow">Купить</a>
+    </div>
+  </div>
+</div>

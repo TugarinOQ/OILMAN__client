@@ -1,0 +1,109 @@
+.menu {
+  width: 250px;
+  margin-left: 0;
+
+  li {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+
+    a {
+      display: inline-block;
+      transition: all .3s;
+      padding: 5px 20px;
+      width: 250px;
+
+      &:before {
+        content: '';
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        background: #E2E5EA;
+        box-shadow: 0 5px 30px 0 rgba(31,33,32,0.36);
+        border-radius: 8px;
+      }
+    }
+
+    &.home a:before {
+      background: url('../../../assets/images/leftmenu/home.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+    &.business a:before {
+      background: url('../../../assets/images/leftmenu/business.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+    &.map a:before {
+      background: url('../../../assets/images/leftmenu/map.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+    &.shop a:before {
+      background: url('../../../assets/images/leftmenu/shop.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+    &.messages a:before {
+      background: url('../../../assets/images/leftmenu/message.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+    &.friends a:before {
+      background: url('../../../assets/images/leftmenu/friends.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+    &.partners a:before {
+      background: url('../../../assets/images/leftmenu/partners.svg') no-repeat center center;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+
+.balance {
+  margin-top: 50px;
+  background: #E2E5EA;
+  box-shadow: 0 0 30px 0 rgba(31,33,32,0.36);
+  border-radius: 8px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #1F2120;
+
+  .box:not(:first-of-type) {
+    margin-top: 15px;
+  }
+  .box.NoEnabled {
+    opacity: 0.2;
+  }
+
+  .title {
+    float: left;
+    width: 100%;
+
+    .action {
+      color: #D08D00;
+      font-size: 11px;
+      line-height: 22.5px;
+      vertical-align: middle;
+      float: right;
+    }
+  }
+
+  .amount {
+    .yellow {
+      font-size: 22px;
+      font-weight: 500;
+      color: #E19900;
+    }
+    span:not(.yellow) {
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: lowercase;
+    }
+  }
+}

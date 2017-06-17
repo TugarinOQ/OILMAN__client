@@ -1,0 +1,24 @@
+<div class="container text-center animated fadeIn">
+  <div class="row">
+    <div class="auth__block">
+
+      <div class="title">ВХОД в аккаунт</div>
+
+      <div class="input__group">
+        <input class="input" type="email" #email placeholder="Email">
+        <input class="input" type="password" #password placeholder="Пароль">
+      </div>
+
+      <div class="yellow__block">
+
+        <re-captcha (captchaResponse)="$event && auth($event)" size="invisible" site_key="6Lcu5B8UAAAAAA2xO7ybnfeldqWCi1JJJBfq32Go"></re-captcha>
+
+        <button class="bigBlackStartButton" (click)="preauth(email, password);">войти</button>
+
+        <div class="restore__block">
+          <a class="link text-center">Забыли пароль?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

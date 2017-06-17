@@ -1,0 +1,91 @@
+.arrow {
+  width: 45px;
+  height: 53px;
+  cursor: pointer;
+  top: 230px;
+  position: absolute;
+  z-index: 1;
+
+  background: url('../../../assets/images/arrow.svg') no-repeat center center;
+
+  &.left {
+    left: 0;
+  }
+  &.right {
+    transform: rotate(180deg);
+    right: 0;
+  }
+}
+
+.OILArea {
+  width: 100%;
+  padding-top: 16px;
+  overflow: hidden !important;
+
+  .OILPlane {
+    width: 10000px;
+    position: relative;
+    padding: 0 0 0 10px;
+
+    .OILObject {
+      float: left;
+      margin-right: 30px;
+      position: relative;
+      width: 165px;
+      margin-left: 30px;
+      height: 320px;
+
+      .title, .price {
+        font-weight: 500;
+        font-size: 15px;
+        color: #1F2120;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .title {
+        height: 45px;
+      }
+      .price {
+        padding-top: 10px;
+        font-size: 25px;
+        padding-bottom: 35px;
+      }
+
+      .buttonYellow {
+        margin-top: 15px;
+        padding: 5px 35px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 30px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1200px) {
+  .OILObject {
+    width: 150px !important;
+  }
+}
+@media(max-width: 992px) {
+  .OILObject {
+    width: 145px !important;
+  }
+}
+@media(max-width: 768px) {
+  .OILObject {
+    width: 155px !important;
+  }
+}
+
+.OILPlatform, .OILBarrel, .OILRockingMachine, .OILTanker {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 105px;
+  height: 160px;
+  background-size: 100%;
+}

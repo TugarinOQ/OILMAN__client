@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #E2E5EA;
+  padding: 40px 0 160px 0;
+  margin: 0;
+  font-family: Roboto, Open Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #464646;
+  min-width: 500px;
+
+  position: relative;
+  min-height: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: #464646;
+  transition: all .3s;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  color: #464646;
+  transition: all .3s;
+}
+.link:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.buttonInvisible {
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.buttonInvisible:hover {
+  background: rgba(254, 191, 57, 0.2);
+  box-shadow: rgba(254, 191, 57, 0.5) 0 2px 40px;
+}
+.buttonYellow {
+  background: #FEBF39;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.buttonYellow:hover {
+  box-shadow: #FEBF39 0 2px 40px;
+}
+
+.OILPlatform {
+  background: url('./assets/images/OILPlatform.svg') no-repeat center center;
+  display: none;
+  position: absolute;
+  width: 277px;
+  height: 227px;
+  top: 130px;
+  left: 0;
+}
+.OILTanker {
+  background: url('./assets/images/OILTanker.svg') no-repeat center center;
+  position: absolute;
+  width: 263px;
+  height: 125px;
+  top: 220px;
+  left: 350px;
+  display: none;
+}
+.OILBarrel {
+  background: url('./assets/images/OILBarrels.svg') no-repeat center center;
+  display: none;
+  position: absolute;
+  width: 55px;
+  height: 74px;
+  top: 250px;
+  right: 200px;
+}
+.OILRockingMachine {
+  background: url('./assets/images/OILRockingMachine.svg') no-repeat center center;
+  display: none;
+  position: absolute;
+  width: 184px;
+  height: 175px;
+  top: 150px;
+  right: 0;
+}
+
+.container {
+  max-width: 100%;
+}
+
+/*recaptcha > .grecaptcha-badge {*/
+  /*height: 75px !important;*/
+  /*width: 300px !important;*/
+/*}*/
+/*recaptcha > .grecaptcha-badge:hover {*/
+  /*right: 10px !important;*/
+/*}*/
+/*recaptcha > .grecaptcha-badge > .grecaptcha-logo > iframe {*/
+  /*width: 300px !important;*/
+  /*height: 75px !important;*/
+/*}*/

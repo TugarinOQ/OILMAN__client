@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="6px" viewBox="0 0 9 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-1363.000000, -50.000000)" fill-rule="nonzero" fill="#464646">
+            <g id="header" transform="translate(60.000000, 30.000000)">
+                <g id="UserPane" transform="translate(1217.077872, 7.000000)">
+                    <g id="Down" transform="translate(85.922128, 13.000000)">
+                        <path d="M0.0815625,0.771875 L0.1321875,0.8375 L3.9571875,5.728125 C4.0865625,5.89375 4.280625,5.996875 4.4971875,5.996875 C4.71375,5.996875 4.9078125,5.890625 5.0371875,5.728125 L8.859375,0.846875 L8.9240625,0.765625 C8.971875,0.6875 9,0.59375 9,0.49375 C9,0.221875 8.791875,0 8.533125,0 L0.466875,0 C0.208125,0 0,0.221875 0,0.49375 C0,0.596875 0.0309375,0.69375 0.0815625,0.771875 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<div class="container text-center animated fadeIn">
+  <div class="row">
+    <div class="reg__block">
+
+      <div class="title">РЕГИСТРАЦИЯ аккаунта</div>
+
+      <div class="input__group">
+        <input class="input" type="text" #login placeholder="Логин">
+        <input class="input" type="email" #email placeholder="Email">
+        <input class="input" type="password" #password placeholder="Пароль">
+        <input class="input" type="password" #confirm placeholder="Повторите пароль">
+      </div>
+
+      <div class="yellow__block">
+
+        <re-captcha (captchaResponse)="$event && reg($event)" size="invisible" site_key="6Lcu5B8UAAAAAA2xO7ybnfeldqWCi1JJJBfq32Go"></re-captcha>
+
+        <button class="bigBlackStartButton" (click)="prereg(email, password);">регистрация</button>
+
+        <div class="restore__block">
+          <a routerLink="/auth" class="link text-center">войти в аккаунт</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

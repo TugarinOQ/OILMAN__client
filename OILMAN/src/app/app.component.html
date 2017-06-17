@@ -1,0 +1,74 @@
+<header>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-md-5 col-lg-4">
+          <a routerLink="/" class="logo">
+            <span class="title">НЕФТЯНИК</span>
+            <span class="description">Экономическая игра</span>
+          </a>
+        </div>
+        <div class="col-xs-6 col-lg-4 hidden-md-down text-center">
+          <div class="topmenu">
+            <a class="link">новости</a>
+            <a class="link">о проекте</a>
+          </div>
+        </div>
+        <div class="hidden-lg-up offset-md-2"></div>
+        <div class="col-xs-6 col-md-5 col-lg-4">
+          <user__pane *ngIf="isLogged"></user__pane>
+          <guest__pane *ngIf="!isLogged"></guest__pane>
+        </div>
+    </div>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 text-center-xs">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <ul>
+              <li><a href="">О системе</a></li>
+              <li><a href="">Новости проекта</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <ul>
+              <li><a href="">вопрос-ответ</a></li>
+              <li><a href="">реклама</a></li>
+              <li><a href="">соглашение об участии</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <ul>
+              <li><a class="yellowBig" href="">техподдержка</a></li>
+              <li><a href="">Отзывы о нас</a></li>
+              <li><a href="">Блог</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 text-center-xs">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 text-center">
+
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="footer__copyright">
+              <a routerLink="/" class="logo">
+                <span class="title">НЕФТЯНИК</span>
+                <span class="description">Экономическая игра</span>
+              </a>
+              <div class="copyright">
+                &copy; {{year}} НЕФТЯНИК - экономическая игра.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

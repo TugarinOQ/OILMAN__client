@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="52px" viewBox="0 0 30 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>leftArrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Guest-Access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LandingPage" transform="translate(-98.000000, -991.000000)" fill-rule="nonzero" fill="#1F2120">
+            <g id="block2" transform="translate(98.000000, 822.000000)">
+                <g id="leftArrow" transform="translate(0.000000, 169.000000)">
+                    <polygon id="Fill-35" points="0.1875 25.9609195 26.0625 0.450574713 29.8125 4.17471264 7.6875 25.9609195 29.8125 47.7471264 26.0625 51.4712644"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

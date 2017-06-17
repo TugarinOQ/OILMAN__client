@@ -1,0 +1,87 @@
+.auth__block {
+  background: #E2E5EA;
+  box-shadow: 0 0 30px 0 rgba(31, 33, 32, 0.36);
+  border-radius: 8px;
+  width: 800px;
+  height: 450px;
+  position: relative;
+  margin: 60px auto;
+  padding: 0 200px;
+
+  .title {
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1F2120;
+    text-transform: uppercase;
+  }
+
+  .input__group {
+
+    .input {
+      width: 100%;
+      margin: 10px;
+      border-radius: 8px;
+      border: none;
+      background: #1F2120;
+      color: #FEBF39;
+      padding: 10px 15px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+
+  .restore__block {
+    margin-top: 80px;
+  }
+}
+
+.yellow__block {
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FEBF39 url('../../assets/images/background.svg') repeat center 30px;
+  background-size: 90%;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: url('../../assets/images/waves.svg') repeat-x;
+  }
+
+  .bigBlackStartButton {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: none;
+    transform: translate(-50%, -90%);
+    background: #1F2120;
+    padding: 0 20px;
+    min-width: 200px;
+    border-radius: 8px;
+    box-shadow: #1F2120 0 2px 80px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 20px;
+    color: #FEBF39;
+    text-shadow: 0 0 10px rgba(254,191,56,0.5);
+    transition: all .3s;
+
+    &:hover {
+      margin-top: -5px;
+      text-shadow: 0 0 15px rgba(254,191,56,1);
+      box-shadow: #1F2120 0 2px 80px, rgba(0,0,0,0.6) 0 5px 15px;
+    }
+  }
+}

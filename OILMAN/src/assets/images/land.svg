@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="50px" viewBox="0 0 225 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Land</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Guest-Access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LandingPage" transform="translate(-1215.000000, -424.000000)" fill-rule="nonzero">
+            <g id="block1" transform="translate(0.000000, 86.000000)">
+                <g id="Waves+Land" transform="translate(0.000000, 338.000000)">
+                    <g id="Land" transform="translate(1215.000000, 0.000000)">
+                        <path d="M226,2.4430137 L226,49.0583562 L0,49.0583562 L0,2.3109589 C5.02222222,2.3109589 226,2.4430137 226,2.4430137 Z" id="Shape" fill="#FEBF39"></path>
+                        <path d="M5.70508766e-15,4.29178082 L5.70508766e-15,0.264109589 C5.73061529,0.264109589 226,0.264109589 226,0.264109589 L226,4.29178082 L5.70508766e-15,4.29178082 Z" id="Shape" fill="#1F2120"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

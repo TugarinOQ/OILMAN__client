@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Access" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard" transform="translate(-60.000000, -128.000000)" fill-rule="nonzero" fill="#1F2120">
+            <g id="leftMenu" transform="translate(60.000000, 125.000000)">
+                <g id="Home" transform="translate(0.000000, 3.000000)">
+                    <path d="M6,0 C6,0 2.2884,3.26333333 0.2142,5.03066667 C0.0924,5.14311111 0,5.30688889 0,5.5 C0,5.83794444 0.2682,6.11111111 0.6,6.11111111 L1.8,6.11111111 L1.8,10.3888889 C1.8,10.7268333 2.0682,11 2.4,11 L4.2,11 C4.5318,11 4.8,10.7262222 4.8,10.3888889 L4.8,7.94444444 L7.2,7.94444444 L7.2,10.3888889 C7.2,10.7262222 7.4682,11 7.8,11 L9.6,11 C9.9318,11 10.2,10.7268333 10.2,10.3888889 L10.2,6.11111111 L11.4,6.11111111 C11.7318,6.11111111 12,5.83794444 12,5.5 C12,5.30688889 11.9076,5.14311111 11.7702,5.03066667 C9.7104,3.26333333 6,0 6,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
